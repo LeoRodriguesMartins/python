@@ -219,3 +219,72 @@ myFunc()
 print("Python is " + x)
 
 """
+
+#Tipos de dados no Python
+
+"""
+ Python tem os seguintes tipos de dados integrados por padrão:
+
+ Tipo de texto: str
+ Tipos Numéricos: int, float, complex
+ Tipos de sequência: list, tuple, range
+ Tipo de mapeamento: dict
+ Tipos de conjunto: set, frozenset
+ Tipo Booleano: bool
+ Tipos binários: bytes, bytearray, memoryview
+ Nenhum tipo: NoneType
+
+ para vericar o tipo, pode-se utilizar a função type()
+ ex.:
+
+ x=5
+ print(type(x))
+"""
+
+#Dados do tipo numério em Python
+"""
+existem 3 - int, float, complex
+
+Int
+é o número inteiro, podendo ser positivo ou negativo, sem casas decimais,
+de tamanho ilimitado
+
+ex.:
+
+
+x = 1
+y = 3225994123940
+z = -3255522
+
+print(type(x))
+print(type(y))
+print(type(z))
+
+Float
+
+é o "número de ponto flutuante", é o número positivo ou negativo que contém
+uma ou mais casas decimais
+
+ex.:
+
+x = 1.10
+y = 1.0
+z = -35.59
+
+print(type(x))
+print(type(y))
+print(type(z))
+
+obs.: float também pode ser um número científico com um "e" para indicar a potência
+de 10
+
+ex.:
+
+x = 35e3
+y = 12e4
+z = -87.7e100
+
+print(type(x))
+print(type(y))
+print(type(z))
+"""
